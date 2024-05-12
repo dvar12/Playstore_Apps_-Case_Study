@@ -46,6 +46,7 @@ The project utilizes a variety of SQL concepts including:
 - Subqueries: Used to perform operations in a sequence or impose logic on a particular row of a table.
 - Stored Procedures: Used to encapsulate a series of SQL statements into a single procedure.
 - Triggers: Used to automatically record changes in the price of apps in a separate table when an update operation occurs in the playstore table.
+- User-defined functions: Created to calculate the adjusted rating of apps based on the square root of the number of installations, and to find the average adjusted rating for each category.
 
 ## Requirements
 - SQL for data extraction and manipulation.
